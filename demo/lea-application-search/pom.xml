@@ -5,9 +5,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.example</groupId>
+		<groupId>com.lea</groupId>
 		<artifactId>demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../demo</relativePath>
 	</parent>
 	<artifactId>lea-application-search</artifactId>
 	<name>lea-application-search</name>
@@ -40,7 +41,7 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
-	<build>
+	<!-- <build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.felix</groupId>
@@ -55,5 +56,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
 </project>

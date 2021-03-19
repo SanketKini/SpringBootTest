@@ -5,19 +5,20 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.example</groupId>
+		<groupId>com.lea</groupId>
 		<artifactId>demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../demo</relativePath>
 	</parent>
 	<artifactId>lea-demo</artifactId>
 	<name>lea-demo</name>
-	<url>http://maven.apache.org</url>
+	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.example</groupId>
+			<groupId>com.lea</groupId>
 			<artifactId>lea-application-search</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
